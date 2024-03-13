@@ -1,0 +1,19 @@
+ul, ol{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background-color:burlywood;
+    align-items: center;
+    justify-content: end;
+}
+
+header nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+header nav ul li a{
+   color: red;
+}

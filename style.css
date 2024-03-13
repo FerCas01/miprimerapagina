@@ -1,0 +1,83 @@
+#perfil{
+    width: 300px;
+height: 400px;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20%;
+}
+
+header a i{
+    color: black;
+    padding: 1.5em;
+    font-size: 1em;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1.5em;
+}
+.one{
+    color: red;
+}
+.sección-1{
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sección-1 h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.sección-2 img{
+    width: 100%;
+    border-radius: 5%;
+    border: 5px solid slategrey;    
+}
+
+footer{
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.sección-3 h2{
+    color: crimson;
+}
+.sección-3 div.imagen-trabajo{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+.sección-3 img{
+    padding: 1.5em;
+    border-radius: 5%;
+}
+.sección-3{
+    width: 100%;
+}
+#footer{
+    padding: 1em;
+    list-style: none;
+    color: beige;
+}
+#footer h3{
+    color: crimson;
+    
+}
+#footer a i.fa-solid.fa-dragon{
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+    color: darkgreen;
+}
