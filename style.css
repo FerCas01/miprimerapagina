@@ -81,3 +81,7 @@ footer{
     right: 39px;
     color: darkgreen;
 }
+div.greeting{
+    background-color: azure;
+    color: black;
+}
