@@ -1,8 +1,17 @@
-#perfil{
-    width: 300px;
-height: 400px;
+body{
+    background: #EFEFBB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
-
+#perfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    border: 2px solid grey;
+}
+section.sección-1{
+    padding: 5px;
+}
 ol, ul{
     list-style: none;
 }
@@ -13,12 +22,17 @@ header{
     align-items: center;
     justify-content: flex-start;
     border-radius: 20%;
+    margin: 1em;
+    padding: 0.5em;
 }
 
 header a i{
     color: black;
     padding: 1.5em;
     font-size: 1em;
+}
+div.Acerca-de{
+    padding: 20px;
 }
 
 header nav ul{
@@ -29,7 +43,6 @@ header nav ul{
     color: red;
 }
 .sección-1{
-    background-color: cornsilk;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +88,15 @@ footer{
     color: crimson;
     
 }
-#footer a i.fa-solid.fa-dragon{
+#footer a img{
     position: fixed;
     bottom: 22px;
     right: 39px;
     color: darkgreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid darkgreen;
 }
 div.greeting{
     background-color: azure;
