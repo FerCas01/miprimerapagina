@@ -95,6 +95,9 @@ div.greeting{
 }
 /*Sección-3 "Trabajos"*/
 
+.sección-3{
+    width: 100%;
+}
 .sección-3 h2{
     color: crimson;
 }
@@ -121,8 +124,12 @@ div.greeting{
     .sección-1{
         width: 45%;
     }
-    .sección-2{
-        width: 50%;
+    .imagen-trabajo{
+        flex-wrap: wrap;
+    }
+    .imagen-trabajo img{
+        width: 100%;
+        margin: 10px 0;
     }
     .sección-3{
         width: 45%;
