@@ -119,5 +119,10 @@ div.greeting{
 }
 /*ESTILO PARA PANTALLAS PEQUEÑAS*/
 @media(max-width:768px){
-
+    .sección-1{
+        width: 45%;
+    }
+    .sección-3{
+        width: 45%;
+    }
 }
