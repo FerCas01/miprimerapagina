@@ -36,7 +36,6 @@ header a i{
 }
 div.Acerca-de{
     padding: 20px;
-    width: 100%;
 }
 
 header nav ul{
@@ -59,8 +58,8 @@ header nav ul{
   
 .sección-2 img{
     width: 100%;
-    border-radius: 5%;
-    border: 5px solid slategrey;    
+    border-radius: 30px;
+    border: 5px solid slategrey;
 }
 
 footer{
