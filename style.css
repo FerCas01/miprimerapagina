@@ -3,6 +3,19 @@ body{
     background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
+/*HEADER*/
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
 #perfil{
     width: 250px;
     height: 250px;
@@ -39,6 +52,22 @@ header nav ul{
 .one{
     color: red;
 }
+  /* Estilos para pantallas pequeñas */
+  @media (max-white: 768px){
+    .checkbtn{
+        display: block;
+    }
+    #encabezado ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #8E0E00;
+        top: 80 px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+  }
 
 /*PERFIL DE PLATAFORMA*/
 .sección-1{
